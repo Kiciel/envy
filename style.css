@@ -147,13 +147,33 @@ input::placeholder{
     height: 965px;
 }
 .content{
-
+    margin-top: 76px;
 }
 .content_line{
     display: flex;
+    justify-content: space-around;
+    margin-right:14%;
+    margin-left: 14%;
 }
 .product{
     background-color: #717171;
-    width: 200px;
-    height: 200px;
+    width: 290px;
+    height: 370px;
+}
+
+.line{
+    background-color: black;
+    width: 1300px;
+    height: 3px;
+}
+.collection{
+    margin-bottom: 76px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.name_collection{
+    font-size: 32px;
+    font-family: 'Amita', sans-serif;
+    margin-right: 1070px;
 }
