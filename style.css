@@ -151,23 +151,25 @@ input::placeholder{
 }
 .content_line{
     display: flex;
-    justify-content: space-around;
-    margin-right:14%;
-    margin-left: 14%;
+    justify-content:space-around;
+    width: 70%;
+    margin: 0 auto 3%;
 }
 .product{
-    background-color: #717171;
-    width: 290px;
-    height: 370px;
+    width: 20%;
+    height: 25%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
 .line{
     background-color: black;
-    width: 1300px;
+    width: 70%;
     height: 3px;
 }
 .collection{
-    margin-bottom: 76px;
+    margin-bottom: 3%;
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -175,5 +177,16 @@ input::placeholder{
 .name_collection{
     font-size: 32px;
     font-family: 'Amita', sans-serif;
-    margin-right: 1070px;
+    margin-right:57%;
+}
+.product_img{
+    height: 300px;
+    width: 287px;
+}
+.name_product{
+    font-weight: 700;
+    margin-top: 5%;
+}
+.price_product{
+    margin-top: 2%;
 }
