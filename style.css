@@ -149,3 +149,11 @@ input::placeholder{
 .content{
 
 }
+.content_line{
+    display: flex;
+}
+.product{
+    background-color: #717171;
+    width: 200px;
+    height: 200px;
+}
