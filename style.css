@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -189,4 +190,35 @@ input::placeholder{
 }
 .price_product{
     margin-top: 2%;
+}
+.content_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    width: 70%;
+}
+.logo_footer{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 380px;
+    margin-left:380px;
+}
+.logo_text{
+    font-size: 42px;
+    font-family: 'Amita';
+}
+.footer{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+.number_text{
+    font-size: 26px;
+    font-weight: 800;
 }
