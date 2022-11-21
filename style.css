@@ -162,6 +162,7 @@ input::placeholder{
     flex-direction: column;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .line{
@@ -215,10 +216,275 @@ input::placeholder{
 }
 .links{
     display: flex;
-    justify-content: space-between;
-    width: 15%;
+    justify-content: space-around;
+    width: 210px;
+    padding-right: 20px;
 }
 .number_text{
     font-size: 26px;
     font-weight: 800;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    margin-right: 18%;
+    display: none;
+}
+.line_burger{
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+@media screen and (max-width:1700px){
+    .logo_footer{
+        margin-right: 25%;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width:1500px){
+    .product_img{
+        height: 250px;
+        width: 257px;
+    }
+    .logo{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .name_collection{
+        margin-right: 55%;
+    }
+}
+@media screen and (max-width:1400px){
+    .product_img{
+        height: 220px;
+        width: 237px;
+    }
+    .logo{
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .number_text{
+        font-size: 20px;
+    }
+    .logo_footer img{
+        width: 80px;
+    }
+    .logo_text{
+        font-size: 30px;
+    }
+    .name_collection{
+        margin-right: 52%;
+    }
+    .header a{
+        font-size: 22px;
+    }
+    .logo{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .logo img{
+        width: 80px;
+    }
+    input::placeholder{
+        font-size: 22px;
+    }
+    .img_personal{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:1300px){
+    .links img{
+        width: 30px;
+    }
+    .name_collection{
+        margin-right: 50%;
+    }
+    .product_img{
+        height: 200px;
+        width: 207px;
+    }
+}
+@media screen and (max-width:1100px){
+    .slideshow-container{
+        width: 80%;
+    }
+    .sale_page{
+        height: 800px;
+    }
+    .number_text{
+        font-size: 16px;
+    }
+    .logo_footer img{
+        width: 60px;
+    }
+    .logo_text{
+        font-size: 26px;
+    }
+    .logo img{
+        width: 60px;
+    }
+    .header a{
+        font-size: 20px;
+    }
+    input::placeholder{
+        font-size: 20px;
+    }
+    .personal img{
+        width: 30px;
+    }
+    .product_img{
+        height: 180px;
+        width: 187px;
+    }
+    .name_collection{
+        margin-right: 47%;
+    }
+    .search input{
+        width: 220px;
+    }
+    .logo_footer{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:1000px){
+    .search input{
+        width: 200px;
+    }
+    .menu a{
+        margin-right: 10px;
+    }
+    .name_collection{
+        margin-right: 43%;
+    }
+    .sale_page{
+        height: 700px;
+    }
+    .menu a{
+        font-size: 18px;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .product_img{
+        height: 150px;
+        width: 147px;
+    }
+}
+@media screen and (max-width:900px){
+    .menu{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .content_line{
+        flex-direction: column;
+    }
+    .product_img{
+        width: 400px;
+        height: 390px;
+    }
+    .content_line{
+        align-items: center;
+    }
+}
+@media screen and (max-width:800px){
+    .burger{
+        margin-right: 10%;
+    }
+    .name_collection{
+        margin-right: 0px;
+    }
+    .sale_page{
+        height: 650px;
+    }
+}
+@media screen and (max-width:700px){
+    .content_footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo_footer{
+        margin-top: 25px;
+    }
+    .links{
+        margin-top: 20px;
+    }
+    .numper{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .number_text{
+        font-size: 24px;
+    }
+    .sale_page{
+        height:550px;
+    }
+    .content{
+        margin-top: 5%;
+    }
+    .product img{
+        width: 280px;
+        height: 270px;
+    }
+    .numbertext{
+        padding: 10px 14px;
+    }
+    .header{
+        padding-bottom: 10%;
+    }
+}
+@media screen and (max-width:600px){
+    .search input{
+        width: 100px;
+    }
+    .sale_page{
+        height:500px;
+    }
+}
+@media screen and (max-width:500px){
+    .search input{
+        width: 80px;
+    }
+    input::placeholder{
+        font-size: 18px;
+    }
+    .numbertext{
+        padding: 5px 7px;
+        font-size: 18px;
+    }
+    .sale_page{
+        height: 450px;
+    }
+}
+@media screen and (max-width:400px){
+    .sale_page{
+        height: 400px;
+    }
+    .img_personal{
+        display: none;
+    }
+    .personal img{
+        margin-right: 12px;
+    }
+    .numbertext{
+        padding: 1px 5px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:320px){
+    .sale_page{
+        height: 320px;
+    }
+    .burger{
+        margin-right: 10px;
+    }
+    .numbertext{
+        display: none;
+    }
 }
